@@ -7,6 +7,10 @@ A collection of puzzles that I have solved with code, from various sources inclu
 ```bash
 python absdistinct.py
 ```
+### Codility - Cyclic Rotation, Rotate an array
+```bash
+python array_question.py
+```
 
 
 
