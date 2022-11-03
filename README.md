@@ -3,16 +3,11 @@ A collection of puzzles that I have solved with code, from various sources inclu
 
 ## Puzzles Solved...
 
-### How many distinct numbers are in a given array ?
-```bash
-python absdistinct.py
-```
-### Cyclic Rotation, Rotate an array
-```bash
-python array_question.py
-```
-### Locate the value in an array that does not have a pair/ match/ snap
-```bash
-python array2_question.py
-```
+|Task|Reference|
+|-|-|
+|Distinct Numbers|absdistinct.py|
+|Cyclic Rotation|array_question.py|
+|Not a pair|array2_question.py|
+|Binary Gap|binary.py|
+
 
