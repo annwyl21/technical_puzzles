@@ -1,5 +1,5 @@
 # technical_puzzles
-A collection of puzzles that I have solved with code, from various sources including Codility.
+A collection of puzzles that I have solved in python, from various sources including Codility.
 
 ## Puzzles Solved...
 
@@ -11,3 +11,4 @@ A collection of puzzles that I have solved with code, from various sources inclu
 |Binary Gap|[binary.py](#/blob/main/binary.py)|
 |Max Product of 3|[max_product_of_three.py](#/blob/main/max_product_of_three.py)|
 |Permutation|[permutation.py](#/blob/main/permutation.py)|
+|Missing element|[dictionary_range.py](#/permutation.py)
