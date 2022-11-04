@@ -5,7 +5,7 @@ A collection of puzzles that I have solved with code, from various sources inclu
 
 |Task|Reference|
 |-|-|
-|Distinct Numbers|absdistinct.py|
+|Distinct Numbers|[absdistinct.py](#\absdistinct.py)|
 |Cyclic Rotation|array_question.py|
 |Not a Pair|array2_question.py|
 |Binary Gap|binary.py|
