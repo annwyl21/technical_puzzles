@@ -3,7 +3,7 @@
 
 def solution(A, K):
     my_array = A
-    if K > 0:
+    if len(my_array) > 0 and K > 0:
         for n in range(K):
             my_array.insert(0, my_array[-1])
             my_array.pop(-1)
@@ -11,8 +11,10 @@ def solution(A, K):
 
 print(solution([1,2,3,4,5], 0))
 print(solution([1,2,3,4,5], 3))
+print(solution([], 3))
 
-# Solution inserts the number in last position onto the beginning,
+# Solution checks 2 conditions: the array is not empty and the rotation is bigger than 0
+# then inserts the number in last position onto the beginning,
 # then pops the number off the end, 
 # which shifts the whole array right by 1 place. 
 # This is repeated using a loop for a specified number of times.
