@@ -18,4 +18,4 @@ console.log(solution([1,2,3,4,5], (3)))
 // looping through this action for the specified number of times
 
 // Challenges...
-// This does not score 100% on coditlity, failing on the 'extreme_empty' test ???
+// This does not score 100% on codility, failing on the 'extreme_empty' test ???
