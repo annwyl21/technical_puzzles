@@ -3,15 +3,10 @@
 
 def solution(A):
     minimum_difference = float('inf')
-    x = 0
-    indexlist = range(1, len(A))
-    for number in indexlist:
-        initialsection = A[0:number]
-        #print(initialsection)
-        x = sum(initialsection)
+    for number in range(1, len(A)):
+        x = sum(A[0:number])
         y = sum(A) - x   
         diff = abs(y - x)
-        #print(diff, x, y)
         if diff < minimum_difference:
             minimum_difference = diff
     return 'minimum difference is ', minimum_difference
