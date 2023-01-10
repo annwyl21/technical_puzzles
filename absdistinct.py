@@ -6,7 +6,7 @@ def solution(A):
     ArrayB = []
     for num in A:
         ArrayB.append(abs(num))
-    #print(ArrayB)
+    print(ArrayB)
     dictionary_from_range  = dict.fromkeys(ArrayB, True)
     return len(dictionary_from_range)
 
