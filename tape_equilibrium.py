@@ -17,34 +17,4 @@ print(solution([3,1,2,-4,3]))
 print(solution([1000, -1000]))
 print(solution([-2,-3,-4,-1]))
 
-# running total solution is too complicated and doesn't work in all situations but working solution above fails on processing time
-
-def solutionplus(A):
-    sumofarray = 0
-    for item in A:
-        sumofarray += abs(item)
-    print(A, sum(A), sumofarray)
-    
-    minimum_difference = float('inf')
-    
-    running_total = 0
-    for number in range(0, len(A)):
-        print(A[number])
-        running_total + A[number]
-        print('running total', running_total)
-        posInt = abs(running_total)
-        #diff = (sum(A) - running_total) - running_total
-        
-        firstslice = posInt
-        secondslice = sumofarray - posInt
-        
-        diff = abs(firstslice - secondslice)
-        print('firstslice', firstslice, ' - secondslice', secondslice, ' = diff', diff)
-        if diff < minimum_difference:
-            minimum_difference = diff
-
-    return 'minimum difference is ', minimum_difference
-
-#print(solutionplus([3,1,2,4,3]))
-#print(solutionplus([1000, -1000]))
-#print(solutionplus([-2,-3,-4,-1]))
+#solution is correct but fails on time
