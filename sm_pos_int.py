@@ -2,7 +2,7 @@
 # Find the smallest positive integer missing from an array
 
 def solution(A):
-    dictfromlist = dict.fromkeys(B, True)
+    dictfromlist = dict.fromkeys(A, True)
     for number in range(1, 1000000):
         if number not in dictfromlist:
             return number
